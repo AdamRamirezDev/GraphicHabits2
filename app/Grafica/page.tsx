@@ -1,10 +1,12 @@
+import Layaout from "../components/Layaout";
 
 
 
 export default function Grafica(){
 
     return (
-        <h1>Probando desde Grafica</h1>
+        <Layaout>
+            <div className="w-full h-[80%] border-1"></div>
+        </Layaout>   
     )
-
 }

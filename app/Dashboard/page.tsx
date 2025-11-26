@@ -1,15 +1,12 @@
 import ButtonMenu from '../components/ButtonMenu';
 import Buttons from '../components/ButtonMenu';
+import Layaout from '../components/Layaout';
 
 
 export default function Dashboard() {
   return (
-    <>
-      <main className="w-full h-[85%] border-2 border-black">
-        <h1>Main</h1>
-      </main>
-      <ButtonMenu></ButtonMenu>
-      
-    </>
+    <Layaout>
+        <h1>Hola desde Dashboard</h1>
+    </Layaout>
   );
 }

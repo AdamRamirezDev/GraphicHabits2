@@ -1,11 +1,13 @@
+import Layaout from "../components/Layaout";
 
 
 
 export default function Configuracion(){
 
     return (
-        <h1>Probando desde Configuracion</h1>
+        <Layaout>
+            <div className="w-full h-[80%] border-1 border-black"></div>
+        </Layaout>
+        
     )
-
-
 }
