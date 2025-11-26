@@ -6,7 +6,7 @@ export default function Grafica(){
 
     return (
         <Layaout>
-            <div className="w-full h-[80%] border-1"></div>
+            <div className="w-full h-[80%] border"></div>
         </Layaout>   
     )
 }

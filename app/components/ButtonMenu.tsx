@@ -12,7 +12,7 @@ export default function ButtonMenu(){
                 <Link href="/Dashboard">
                     <button className="w-20 h-20 text-black border-neutral-200 rounded-4xl bg-neutral-300 cursor-pointer">Habitos</button>
                 </Link>
-                <Link href="/Dashboard">
+                <Link href="/Creacion">
                     <button className="w-20 h-20 text-black border-neutral-200 rounded-4xl bg-neutral-300 cursor-pointer">Crear</button>
                 </Link>
                 <Link href="/Configuracion">
